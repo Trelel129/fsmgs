@@ -1,13 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T13:03:05.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2IEu3eLMjOCpIPg3fmPn" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T13:27:47.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3zSgrKzBU04hZb9tHRg8" version="24.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="956" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="Pw0hEaCwRAZkLy2Prb98-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pw0hEaCwRAZkLy2Prb98-0" target="Pw0hEaCwRAZkLy2Prb98-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Pw0hEaCwRAZkLy2Prb98-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Pw0hEaCwRAZkLy2Prb98-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="85" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Pw0hEaCwRAZkLy2Prb98-0" value="Start&lt;div&gt;------------------&lt;/div&gt;&lt;div&gt;Weather=Sunny&lt;br&gt;&lt;/div&gt;&lt;div&gt;crop= 0&lt;/div&gt;&lt;div&gt;coin=100&lt;/div&gt;&lt;div&gt;day=1&lt;/div&gt;&lt;div&gt;name= &quot;&quot;&lt;/div&gt;&lt;div&gt;x=5&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="Pw0hEaCwRAZkLy2Prb98-0" value="Start&lt;div&gt;------------------&lt;/div&gt;&lt;div&gt;Weather=Sunny&lt;br&gt;&lt;/div&gt;&lt;div&gt;crop= 5&lt;/div&gt;&lt;div&gt;coin=100&lt;/div&gt;&lt;div&gt;day=1&lt;/div&gt;&lt;div&gt;name= &quot;&quot;&lt;/div&gt;&lt;div&gt;x=1&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="30" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Pw0hEaCwRAZkLy2Prb98-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pw0hEaCwRAZkLy2Prb98-1" target="Pw0hEaCwRAZkLy2Prb98-4" edge="1">
@@ -114,9 +116,9 @@
         <mxCell id="t1v_qKrR-NGsP16EMqap-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-6" target="t1v_qKrR-NGsP16EMqap-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t1v_qKrR-NGsP16EMqap-31" value="act:wheat &amp;amp;&amp;amp; crop=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1v_qKrR-NGsP16EMqap-30">
+        <mxCell id="t1v_qKrR-NGsP16EMqap-31" value="act:wheat &amp;amp;&amp;amp; x!=5 &lt;br&gt;&amp;amp;&amp;amp; money&amp;gt;=price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1v_qKrR-NGsP16EMqap-30">
           <mxGeometry x="-0.1889" y="1" relative="1" as="geometry">
-            <mxPoint x="8" y="-9" as="offset" />
+            <mxPoint x="8" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t1v_qKrR-NGsP16EMqap-6" value="Plant" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -143,11 +145,82 @@
             <mxPoint x="26" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t1v_qKrR-NGsP16EMqap-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;crop++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plant Wheat&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="270" width="80" height="80" as="geometry" />
+        <mxCell id="t1v_qKrR-NGsP16EMqap-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-29" target="t1v_qKrR-NGsP16EMqap-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t1v_qKrR-NGsP16EMqap-32" value="&lt;div&gt;crops[x]=wheat&lt;/div&gt;&lt;div&gt;crops[x][y]&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="255" width="110" height="110" as="geometry" />
+        <mxCell id="t1v_qKrR-NGsP16EMqap-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;money-=5&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plant Wheat&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-32" value="crops=wheat&lt;div&gt;days=3&lt;/div&gt;&lt;div&gt;profit=15&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="267.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-37" value="1 = days_to_grow&lt;br&gt;2 = profit&lt;br&gt;3 = price" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="187.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-42" value="&lt;div&gt;wheat&lt;div&gt;days = 3&lt;/div&gt;&lt;div&gt;profit = 15&lt;/div&gt;&lt;div&gt;price = 5&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="670" y="110" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-43" target="t1v_qKrR-NGsP16EMqap-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-43" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;money-=8&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plant Potato&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-6" target="t1v_qKrR-NGsP16EMqap-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-45" value="act:potato &amp;amp;&amp;amp; x!=5 &lt;br&gt;&amp;amp;&amp;amp; money&amp;gt;=price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1v_qKrR-NGsP16EMqap-44">
+          <mxGeometry x="-0.1889" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-46" value="crops=potato&lt;div&gt;days=5&lt;/div&gt;&lt;div&gt;profit=40&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="357.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-48" target="t1v_qKrR-NGsP16EMqap-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-48" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;money-=7&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plant Carrot&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-6" target="t1v_qKrR-NGsP16EMqap-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-50" value="act:carrot &amp;amp;&amp;amp; x!=5 &lt;br&gt;&amp;amp;&amp;amp; money&amp;gt;=price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1v_qKrR-NGsP16EMqap-49">
+          <mxGeometry x="-0.1889" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="89" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-51" value="crops=carrot&lt;div&gt;days=4&lt;/div&gt;&lt;div&gt;profit=28&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="447.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-53" target="t1v_qKrR-NGsP16EMqap-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="584.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-53" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x++&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;money-=10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Plant Pumpkin&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="544.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="t1v_qKrR-NGsP16EMqap-6" target="t1v_qKrR-NGsP16EMqap-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-55" value="act:pumpkin &amp;amp;&amp;amp; x!=5 &lt;br&gt;&amp;amp;&amp;amp; money&amp;gt;=price" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1v_qKrR-NGsP16EMqap-54">
+          <mxGeometry x="-0.1889" y="1" relative="1" as="geometry">
+            <mxPoint x="8" y="136" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1v_qKrR-NGsP16EMqap-57" value="crops=pumpkin&lt;div&gt;days=10&lt;/div&gt;&lt;div&gt;profit=70&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="542" width="85" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
